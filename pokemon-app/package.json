@@ -1,0 +1,18 @@
+{
+  "name": "pokemon-app",
+  "version": "1.0.0",
+  "description": "Lit Pokemon App",
+  "main": "pokemon-app.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --watch --open --port 3000"
+  },
+  "author": "Manuel Eduardo Santiago Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "@lit-labs/router": "^0.1.3",
+    "lit": "^3.2.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6"
+  }
+}
